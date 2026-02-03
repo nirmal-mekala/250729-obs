@@ -1,0 +1,42 @@
+body {
+  width: 1920px;
+  height: 1080px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Fira Code", monospace;
+}
+
+h1 {
+  color: #00ff00;
+}
+
+.screen {
+  border: 2px solid blue;
+  border-box: content-box;
+  width: 1280px;
+}
+
+.webcam {
+  border: 2px solid red;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.text-container {
+  background-color: black;
+  color: darkseagreen;
+  font-size: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-container {
+  flex-grow: 1;
+  border-bottom: 2px solid orange;
+}
